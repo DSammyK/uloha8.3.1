@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Who</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #0a0b16;
+            color: #fff;
+        }
+
+        .container{
+            width: 75%;
+            margin: auto;
+            padding-bottom: 80px;
+        }
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: 550;
+        }
+        
+        a:hover{
+            color: #ffc67e;
+            border-bottom: 2px solid #ffc67e;
+        }
+
+        .line{
+            margin-right: 20px;
+            border-left: 3px solid white;
+        }
+        span{
+            color: #ffc67e;
+        }
+        
+        h1,h2{
+            text-decoration: underline #ffc67e;
+        }
+        img {
+            height: 200px;
+            width: 27%;
+        }
+
+        img:nth-child(2){
+            width: 14%;
+        }
+        
+        .images{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul{
+            margin-bottom: 50px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .actor1{
+            color: #ffc67e;
+        }
+
+        .actor2{
+            color: rgb(216, 224, 105);
+        }
+
+        .actor3{
+            color: rgb(233, 151, 104);
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar{
+            height: 30px;
+        }
+
+        .navbar li {
+            margin-right: 10px;
+        }
+
+        .video{
+            margin-top: 70px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li class="line"></li>
+                <li class="navbarItem"><a href="./../index.html">Domov</a></li>
+                <li class="line"></li>
+                <li class="navbarItem"><a href="./ranking.html">Rebríček</a></li>
+                <li class="line"></li>
+                <li class="navbarItem"><a href="./add-review.html">Pridať recenziu</a></li>
+            </ul>
+        </div>
+
+        <h1 style="text-align: center;">Doctor Who</h1>
+        <hr>
+        <h2 style="text-align: center;">O filme</h2>
+        <p>Kultovní seriál Velké Británie z 60. let je zpět a s ním i <b>Doktor v nových regeneracích.</b>
+            Opět se prostřednictvím své <b>časoprostorové Tardis</b> (s podobou policejní budky) i společníků vydává Doktor na úžasná dobrodružství napříč <b>prostorem a časem celého vesmíru</b> 
+            a snaží se vyřešit nejednu zapeklitou záhadu, jež mnohdy způsobí nemalé problémy. Zas a znova se setkává s mimozemšťany různorodých civilizací, kteří ne vždy 
+            jsou vůči němu přátelští. Ať už jsou to <b>Dálekové (jeho odvěcí nepřátelé), Sontarani, či jiní.</b> Má tak co dělat, aby sám vyvázl z malérů a zvládl situaci, 
+            aniž by přitom kdokoliv <b>přišel o život, což se bohužel ne vždy podaří.</b></p>
+        
+        <hr>
+        <h2 style="text-align: center;">Herci</h2>
+
+        <ul>
+            <li class="actor1">Peter Capaldi</li>
+            <li class="actor2">Matt Smith</li>
+            <li class="actor3">Billie Piper</li>
+        </ul>
+
+        <div class="images">
+            <img src="./../images/images.jpg" alt="">
+            <img src="./../images/images3.jpg" alt="">
+            <img src="./../images/images2.jpg" alt="">
+        </div>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HlHsgDShgSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+</div>
+    
+</body>
+</html>
